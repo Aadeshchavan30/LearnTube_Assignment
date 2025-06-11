@@ -21,7 +21,7 @@ This project addresses the need for personalized career development tools by lev
 
 ## Installation and Setup
 
-Follow these instructions to set up and run the LearnTube by CareerNinja app locally.
+Follow these instructions to set up and run the app locally.
 
 ### Prerequisites
 - **Python**: Version 3.9 to 3.13
@@ -82,11 +82,11 @@ python -m streamlit run app.py
 
 ### Step 6: Deactivate the Environment (When Done)
 
-
+deactivate
 
 ## Usage
 
-1. **Access the App**: Open the hosted app at [Your Hosted App URL Here] or run it locally as described in the setup instructions.
+1. **Access the App**: Open the hosted app at https://learntubeassignment-ubhb6e93gbqqljkggyxmej.streamlit.app/ or run it locally as described in the setup instructions.
 2. **Enter LinkedIn URL**: Input a LinkedIn profile URL in the provided text field and click "Analyze Profile" to scrape and analyze the data.
 3. **Review Analysis**: View the AI-generated profile analysis and suggested improvements displayed on the app.
 4. **Engage in Chat**: Use the chat interface to ask specific questions (e.g., "What skills should I add for a data science role?") for personalized career guidance.
