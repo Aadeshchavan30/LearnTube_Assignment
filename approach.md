@@ -1,10 +1,10 @@
-# Approach, Challenges, and Solutions for An AI-Powered LinkedIn Profile Optimizer and Career Guidance System
+### Approach, Challenges, and Solutions for An AI-Powered LinkedIn Profile Optimizer and Career Guidance System
 
-## Introduction
+#### Introduction
 
 This document outlines the approach taken to develop An AI-Powered LinkedIn Profile Optimizer and Career Guidance System, a web application for LinkedIn profile optimization and career guidance, as part of a recruitment assignment. It details the methodology, challenges encountered during development, and the solutions implemented to overcome them, ensuring the project meets the objectives and technical expectations specified.
 
-## Approach
+#### Approach
 
 The development of An AI-Powered LinkedIn Profile Optimizer and Career Guidance System followed a structured methodology to address the key functionalities: interactive chat interface, profile optimization, job fit analysis, career guidance, and memory system for personalized experience. The approach was guided by the following steps:
 
@@ -22,7 +22,7 @@ The development of An AI-Powered LinkedIn Profile Optimizer and Career Guidance 
 
 - **Deployment**: Hosted the app on Streamlit Community Cloud to provide a public URL for evaluation, ensuring accessibility as per submission requirements.
 
-## Challenges
+#### Challenges
 
 During development, several challenges arose that impacted the implementation of key functionalities. These are detailed below:
 
@@ -36,7 +36,7 @@ During development, several challenges arose that impacted the implementation of
 
 - **Deployment and Accessibility**: Hosting the app on a public URL posed initial configuration issues, ensuring compatibility with external APIs (Apify, Google Generative AI) and maintaining performance for evaluators.
 
-## Solutions
+#### Solutions
 
 To address the challenges, the following solutions were implemented, ensuring the app met the required functionalities and technical expectations:
 
@@ -50,7 +50,7 @@ To address the challenges, the following solutions were implemented, ensuring th
 
 - **Solution for Deployment**: Deployed the app on Streamlit Community Cloud to provide a public URL for evaluation. Configured environment variables securely on the hosting platform for Apify and Google API keys under "Secrets" in Streamlit Cloud settings, tested API connectivity, and optimized app performance by minimizing redundant LLM calls through session state caching, as managed in `app.py`.
 
-## Conclusion
+#### Conclusion
 
 The approach to developing An AI-Powered LinkedIn Profile Optimizer and Career Guidance System focused on creating a user-friendly, AI-powered tool for LinkedIn profile optimization and career guidance, adhering to the specified objectives and technical expectations. By addressing challenges such as inconsistent data scraping, chat history isolation, and AI response quality through targeted solutions, the project delivers a functional and impactful application. This document, alongside the code comments and README, provides a comprehensive view of the development process for evaluation purposes.
 
