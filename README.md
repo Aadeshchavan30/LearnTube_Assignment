@@ -32,6 +32,7 @@ Follow these instructions to set up and run the LearnTube by CareerNinja app loc
 ### Step 1: Clone the Repository
 
 git clone https://github.com/Aadeshchavan30/LearnTube_Assignment 
+
 cd LearnTube_Assignment
 
 
