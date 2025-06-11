@@ -30,7 +30,7 @@ if "improvement_response" not in st.session_state:
     st.session_state.improvement_response = None  # To store suggested improvements
 
 # Streamlit UI Setup
-st.title("LearnTube by CareerNinja")
+st.title("LearnTube")
 st.subheader("Optimize Your LinkedIn Profile and Career Path")
 
 # Input for LinkedIn Profile URL with a unique key
